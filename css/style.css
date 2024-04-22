@@ -1,0 +1,107 @@
+/* Resetear los márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
+    line-height: 1.6; /* Espaciado de línea */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333; /* Color oscuro para el header */
+    color: white; /* Texto del header en blanco */
+    padding: 20px 40px; /* Más padding para un look más amplio */
+    text-align: center; /* Centrar el texto del header */
+}
+
+/* Estilo de los enlaces en el encabezado */
+header a {
+    color: #ddd; /* Color de enlace más suave */
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+}
+
+/* Estilo de las imágenes en el centro */
+.imagenes {
+    text-align: center;
+    margin-top: 40px; /* Más espacio en la parte superior */
+}
+
+/* Estilo de las imágenes para que se muestren en línea */
+.imagenes img {
+    margin: 0 15px; /* Más espacio entre imágenes */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilo del mapa y del formulario */
+.mapa, .formulario {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 0; /* Espacio vertical para separar del contenido anterior y posterior */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para resaltar */
+    background: white; /* Fondo blanco para destacar sobre el fondo de la página */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* El formulario estará a la izquierda */
+.formulario {
+    width: calc(50% - 40px); /* Ajuste para el padding */
+    text-align: left;
+    padding: 20px; /* Padding uniforme */
+}
+
+/* El mapa estará a la derecha */
+.mapa {
+    width: 50%; /* Ajuste para el padding */
+    text-align: center; /* Centrar el contenido del mapa */
+    padding: 20px; /* Padding uniforme */
+}
+
+/* Estilo de los inputs del formulario */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Padding cómodo */
+    margin-bottom: 20px; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+}
+
+/* Botón de envío del formulario */
+input[type="submit"] {
+    background-color: #4CAF50; /* Color verde para el botón */
+    color: white; /* Texto en blanco */
+    padding: 10px 20px; /* Padding amplio */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+}
+
+/* Cambiar el estilo del botón al pasar el mouse */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Color verde más oscuro al pasar el mouse */
+}
+/* Estilo del footer */
+footer {
+    background-color: #333; /* Color oscuro para el footer, igual que el header */
+    color: white; /* Texto del footer en blanco */
+    padding: 20px 40px; /* Padding similar al header para mantener la consistencia */
+    bottom: 0; /* Alineado al fondo de la página */
+    width: 100%; /* Ancho completo */
+}
+
+
+/* Estilo para el texto del footer */
+footer p {
+    margin-top: 10px; /* Espacio antes del texto */
+    font-size: 0.8em; /* Tamaño de fuente más pequeño para el texto adicional */
+}
